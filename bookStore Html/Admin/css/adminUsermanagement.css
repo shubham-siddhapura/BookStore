@@ -1,0 +1,316 @@
+/* --------------------- admin main ---------------------------- */
+#admin-um-div {
+    margin-top: 75px;
+}
+
+#admin-um-main-menu a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+#admin-um-main-div {
+    display: flex;
+}
+
+#admin-um-main-menu {
+    width: 20vw;
+    height: calc(100vh - 75px);
+    position: sticky;
+    top: 75px;
+}
+
+    #admin-um-main-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        #admin-um-main-menu ul li {
+            font-size: 16px;
+            color: #646464;
+            padding: 15px;
+            border-bottom: 1px solid #E5E5E5;
+            border-right: 1px solid #E5E5E5;
+        }
+
+            #admin-um-main-menu ul li a {
+                color: #646464;
+            }
+
+#admin-um-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 22px;
+    width: 80vw;
+    background-color: #EFEFEF;
+    min-height: calc(100vh - 75px);
+}
+
+#admin-title-outer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#admin-title h1 {
+    font-size: 22px;
+    color: #646464;
+    margin: 15px 0;
+}
+
+#admin-um-addbtn button {
+    background-color: #bf4446;
+    line-height: 36px;
+    border: 0;
+    border-radius: 4px;
+    color: white!important;
+}
+
+
+    #admin-um-addbtn button img {
+        vertical-align: middle;
+        margin: 0 7px 0 10px;
+    }
+
+    #admin-um-addbtn button span {
+        vertical-align: middle;
+        margin-right: 10px;
+        color: white!important;
+    }
+
+#admin-um-search {
+    background-color: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    padding: 20px 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#admin-um-search form{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+#admin-um-form button {
+    width: 84px;
+    /* padding: 14px 15px; */
+    border-radius: 4px;
+    padding:0 15px;
+}
+
+#admin-um-form-searchbtn {
+    background-color: #bf4446;
+    color: #ffffff;
+    border: 0;
+    line-height: 46px;
+}
+
+#admin-um-form-clearbtn {
+    color: #646464;
+    background-color: #ffffff;
+    border: 1px solid #DEDDDD;
+    line-height: 44px;
+}
+
+#admin-um-tablediv {
+    width: 100%;
+    margin-top: 20px;
+    /* overflow: auto; */
+}
+
+    #admin-um-tablediv table {
+        width: 100%;
+        font-size: 16px;
+        background-color: #ffffff;
+        border-spacing: 0;
+        border: 1px solid #E1E1E1;
+        border-bottom: 0;
+        color: #646464;
+    }
+
+        #admin-um-tablediv table thead {
+            background-color: #F9F9F9;
+        }
+
+        #admin-um-tablediv table th, #admin-um-tablediv table td {
+            text-align: left;
+            padding: 15px;
+            border: 0;
+            border-bottom: 1px solid #E1E1E1;
+        }
+
+#admin-table-hAction {
+    text-align: center !important;
+}
+
+.admin-table-action {
+    text-align: center !important;
+    position: relative;
+}
+
+.admin-table-actionbtn {
+    border: 0;
+    background-color: #ffffff00;
+    padding: 4px 10px;
+}
+
+    .admin-table-actionbtn:hover {
+        border-radius: 50%;
+        background-color: #F4F4F4;
+    }
+
+.admin-table-status {
+    line-height: 24px;
+    padding: 5px 10px;
+    background-color: #67B644;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.admin-table-action-menu {
+    display: none;
+    position: absolute;
+    right: 20px;
+    width: max-content;
+    text-align: left;
+    background-color: #FFFFFF;
+    z-index: 10;
+    box-shadow: 0px 0px 6px #00000040;
+    padding: 7.5px 15px;
+    width: 160px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+    .admin-table-action-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .admin-table-action-menu ul li {
+            padding: 7.5px 0;
+        }
+
+    .admin-table-action-menu::before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        right: 18px;
+        width: 10px;
+        height: 10px;
+        background-color: #ffffff;
+        transform: rotate(45deg);
+        box-shadow: -4px -4px 6px #00000040;
+    }
+
+#admin-um-table_first, #admin-um-table_last, #admin-um-table_info {
+    display: none;
+}
+
+#admin-um-table_length {
+    margin: 10px;
+}
+
+    #admin-um-table_length select {
+        margin: 0 5px;
+    }
+
+#admin-um-table_previous, #admin-um-table_next {
+    border-radius: 0;
+}
+
+#admin-um-tablediv .dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: #777777 !important;
+}
+
+    #admin-um-tablediv .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+        background: #56565655 !important;
+        color: white !important;
+    }
+
+    #admin-um-tablediv .dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+        color: white !important;
+    }
+
+    .pagination{
+        display: flex;
+        gap:30px;
+        align-items: center;
+    }
+
+.pagination svg{
+    height: 40px;
+    width: 40px;
+}
+
+.pagination button{
+    background-color: transparent;
+    border: 0;
+}
+
+#admin-um-tablediv .paginate_button {
+    padding: 8px 15px !important;
+    border: 1px solid #AAAAAA !important;
+    border-radius: 0 !important;
+    margin: 0;
+    color: #777777 !important;
+}
+
+#admin-um-tablediv a.paginate_button.current {
+    background-color: #565656 !important;
+    border: 0;
+}
+
+.showmenu {
+    display: block !important;
+}
+
+#admin-um-footer {
+    width: 100%;
+}
+
+    #admin-um-footer p {
+        color: #A2A6A8;
+        text-align: left;
+        width: 100%;
+    }
+
+#admin-um-main-menu .active {
+    color: #1FB6FF;
+}
+
+#admin-um-exportdiv {
+    width: 100%;
+    text-align: right;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#admin-um-exportdiv select{
+    max-width: 75px;
+    display: inline-block;
+}
+
+    #admin-um-exportdiv #export {
+        padding: 14px 17px;
+        background-color: #bf4446;
+        color: #ffffff;
+        border: 0;
+        border-radius: 4px;
+        margin-bottom: -10px;
+    }
+    .dropdown-toggle::after{
+        display: none;
+    }
+
+    .dropdown button{
+        border: 0;
+        background-color: transparent;
+    }

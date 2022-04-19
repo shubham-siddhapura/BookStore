@@ -1,0 +1,60 @@
+#addInventoryModal .modal-dialog{
+    max-width: 350px;
+}
+
+.inventoryMainDiv{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.inventoryMainDiv button{
+    border-radius: 50%;
+    background-color: transparent; 
+    border: 0;
+}
+
+.inventoryMainDiv button svg{
+    height:36px;
+    width:36px;
+}
+
+.inventoryMainDiv button svg:hover,
+.inventoryMainDiv button svg:focus{
+    stroke-width: 1.5;
+}
+
+.inventoryMainDiv button svg:active{
+    stroke-width: 1;
+    stroke: white;
+    fill: #484848;
+}
+
+.form-control:focus{
+    outline-style: none;
+    box-shadow: none;
+    outline: none!important;
+}
+
+/* remove updown arrow in input type number */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+/* 
+.modal-header{
+    border-bottom: 0;
+} */
+/* 
+.modal-footer{
+    border-top: 0;
+} */

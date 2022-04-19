@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #484848;
+    
+}
+
+body{
+    background-color: #f8f8ff;
+    font-size: 1.15rem;
+}
+
+nav.navbar{
+    background-color: #bf4446;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999990;
+}
+
+nav h1{
+    color: #fff;
+    font-weight: 700;
+}
+
+p, h1, h2, h3, h4, h5, h6, span{
+    
+    margin: 0;
+    padding: 0;
+}
+
+.pageTitle{
+    margin: 20px 0;
+}
+
+.modal{
+    z-index: 999999;
+}
+
+button.btn.btn-outline-primary{
+    border-color: #bf4446;
+    color: #bf4446;
+}
+
+button.btn.btn-primary{
+    border-color: #bf4446;
+    background-color: #bf4446;
+}
+
+button.btn.btn-outline-primary:hover{
+    color: #fff;
+    background-color: #bf4446;
+}
+
+.loadingAnimationDiv{
+     width: 100%;
+     height: 100%;
+     background-color: #48484888;
+     
+     z-index: 999999;
+     position: fixed;
+     top: 0;
+     left: 0;
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.animationRing{
+    height: 75px;
+    width: 75px;
+    border: 10px solid #bf4446;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-radius: 50%;
+    z-index: 9999999;
+    -webkit-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .myProfile{
+      
+      display: flex;
+      align-items: center;
+  }
+
+  .myProfile svg{
+    height: 36px;
+    width: 36px;
+    stroke-width: 1;
+    margin-right: 7px;
+  }
+
+  .myProfile span{
+    color: #eeeeee;
+  }
+
+  .myProfile:hover svg{
+      stroke-width: 1.5;
+      stroke: #fff;
+      
+  }
+
+  .myProfile:hover span{
+      color: #fff;
+    }

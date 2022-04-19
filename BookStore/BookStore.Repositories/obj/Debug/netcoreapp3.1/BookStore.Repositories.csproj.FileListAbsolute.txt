@@ -1,0 +1,13 @@
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\bin\Debug\netcoreapp3.1\BookStore.Repositories.deps.json
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\bin\Debug\netcoreapp3.1\BookStore.Repositories.dll
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\bin\Debug\netcoreapp3.1\BookStore.Repositories.pdb
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\bin\Debug\netcoreapp3.1\BookStore.Models.dll
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\bin\Debug\netcoreapp3.1\BookStore.Models.pdb
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\obj\Debug\netcoreapp3.1\BookStore.Repositories.csproj.AssemblyReference.cache
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\obj\Debug\netcoreapp3.1\BookStore.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\obj\Debug\netcoreapp3.1\BookStore.Repositories.AssemblyInfoInputs.cache
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\obj\Debug\netcoreapp3.1\BookStore.Repositories.AssemblyInfo.cs
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\obj\Debug\netcoreapp3.1\BookStore.Repositories.csproj.CoreCompileInputs.cache
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\obj\Debug\netcoreapp3.1\BookStore.Repositories.csproj.CopyComplete
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\obj\Debug\netcoreapp3.1\BookStore.Repositories.dll
+D:\Tatvasoft Tasks\BookStore\BookStore.Repositories\obj\Debug\netcoreapp3.1\BookStore.Repositories.pdb

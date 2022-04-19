@@ -1,0 +1,145 @@
+
+
+.AllBooks{
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.book{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+.book:hover{
+    transform: scale(1.03);
+}
+
+.bookTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bookImage{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #e1e1e1;
+    border: 0;
+}
+
+.bookImage img{
+    height: 225px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+}
+
+.favourite{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+.favouriteCheckBox{
+    display: none;
+}
+
+.favouriteCheckBox + label{
+    color: #646464;
+    font-size: 26px;
+}
+
+.favouriteCheckBox:checked + label{
+    color: #dcb900;
+    
+}
+
+.addToCartBtn{
+    width: 100%;
+    padding: 7px;
+    margin: 15px 0;
+    background-color: #bf4446;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+/* .addToCartBtn:hover{
+    background-color: #3fa050;
+} */
+
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination>div{
+    display: flex;
+    gap: 75px;
+    align-items: center;
+}
+
+.pagination button.btn.btn-primary{
+
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 50%;
+    padding: 0;
+
+}
+
+.pagination button.btn.btn-primary svg{
+    color: #bf4446;
+    height: 40px;
+    width: 40px;
+}
+
+
+.flex-wrap-between{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+    margin: 15px;
+}
+
+/* ======= Serch ======= */
+.SearchDiv{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.SearchDiv input{
+    width: 100%;
+    padding: 0 15px;
+    line-height: 44px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #646464;
+    border-right: 0;
+}
+
+.SearchDiv input:focus{
+    outline: none;
+}
+
+.SearchDiv button{
+    line-height: 44px;
+    padding: 0 10px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    background-color: #bf4446;
+}
+
+.SearchDiv button svg{
+    height: 20px;
+    width: 20px;
+    margin-top: -5px;
+}

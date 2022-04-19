@@ -1,0 +1,13 @@
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\bin\Debug\netcoreapp3.1\BookStore.Models.deps.json
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\bin\Debug\netcoreapp3.1\BookStore.Models.runtimeconfig.json
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\bin\Debug\netcoreapp3.1\BookStore.Models.runtimeconfig.dev.json
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\bin\Debug\netcoreapp3.1\BookStore.Models.dll
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\bin\Debug\netcoreapp3.1\BookStore.Models.pdb
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\obj\Debug\netcoreapp3.1\BookStore.Models.csproj.AssemblyReference.cache
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\obj\Debug\netcoreapp3.1\BookStore.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\obj\Debug\netcoreapp3.1\BookStore.Models.AssemblyInfoInputs.cache
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\obj\Debug\netcoreapp3.1\BookStore.Models.AssemblyInfo.cs
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\obj\Debug\netcoreapp3.1\BookStore.Models.csproj.CoreCompileInputs.cache
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\obj\Debug\netcoreapp3.1\BookStore.Models.dll
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\obj\Debug\netcoreapp3.1\BookStore.Models.pdb
+D:\Tatvasoft Tasks\BookStore\BookStore.Models\obj\Debug\netcoreapp3.1\BookStore.Models.genruntimeconfig.cache

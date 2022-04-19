@@ -1,0 +1,219 @@
+#loginModal .form-label{
+    margin-bottom: 0.15rem !important;
+}
+
+.slider{
+    position: relative;
+    height: calc(100vh - 60px);
+    width: 100%;
+    overflow: hidden;
+    margin-top: 73px;
+}
+
+
+.slides{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.slide{
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+}
+
+.slide img{
+    height: 100%;
+    width: 100%;
+}
+
+.slide h1{
+    position: absolute;
+    top: 30%;
+    color: #ffffff;
+    width: 78%;
+    right: 11%;
+    left: 11%;
+    z-index: 10000;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sliderBtnsDiv{
+    position: absolute;
+    display: flex;
+    /* border: 5px solid black; */
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.sliderBtnsDiv .sliderBtn{
+    width: 50%;
+    height: 100%;
+    background-color: #0000008f;
+    border: 0;
+}
+
+.findBookDiv{
+    display: flex;
+    justify-content: center;
+    z-index: 100000;
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+}
+
+.findBookDiv input{
+    width: 75%;
+    padding: 0 15px;
+    line-height: 54px;
+    font-size: 20px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #646464;
+    border-right: 0;
+}
+
+.findBookDiv input:focus{
+    outline: none;
+}
+
+.findBookDiv button{
+    line-height: 54px;
+    padding: 0 25px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    background-color: #bf4446;
+}
+
+.findBookDiv button svg{
+    height: 20px;
+    width: 20px;
+    margin-top: -5px;
+}
+
+
+/* ======== Categories ============= */
+.categories{
+    margin: 30px auto;
+    width: max-content;
+}
+
+.categories>h2{
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.category{
+    margin: 30px 0;
+}
+
+.category>h3{
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.booksList{
+    display: flex;
+    gap: 30px;
+}
+
+.book{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+.book:hover{
+    transform: scale(1.03);
+}
+
+.bookTitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bookImage{
+    width: 100%;
+    border-radius: 10px;
+    background-color: #e1e1e1;
+    border: 0;
+}
+
+.bookImage img{
+    height: 225px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+}
+
+
+
+.favourite{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+.favouriteCheckBox{
+    display: none;
+}
+
+.favouriteCheckBox + label{
+    color: #646464;
+    font-size: 26px;
+}
+
+.favouriteCheckBox:checked + label{
+    color: #dcb900;
+    
+}
+
+.addToCartBtn{
+    width: 100%;
+    padding: 7px;
+    margin: 15px 0;
+    background-color: #bf4446;
+    color: #fff;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.showMoreDiv{
+    position: absolute;
+    height:100%;
+    width: 110%;
+    margin-top: -7.5px;
+    margin-left: -5%;
+    background-color: #bf4446dd;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showMoreDiv button{
+ border: 0;
+ background-color: transparent;
+ color: #fff;
+}
+
+.showMoreDiv p{
+    color: #fff;
+}
+
+.showMoreDiv a{
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    position: absolute;
+}

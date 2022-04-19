@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Books</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/myProfile.css">
+
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><h1>Book Store</h1></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="books.html">Books</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                      </li>
+                      <li class="nav-item" id="loginLi">
+                        <a class="nav-link" role="button" data-bs-toggle="modal" data-bs-target="#loginModal" id="indexLoginBtn">Login</a>
+                      </li>
+                      <li class="nav-item d-none" id="logoutLi">
+                        <a class="nav-link" role="button" data-bs-toggle="modal" data-bs-target="#logoutModal">Logout</a>
+                      </li>
+                      <li class="nav-item" id="registerLi">
+                        <a class="nav-link" href="registration.html">Registration</a>
+                      </li>
+                      
+                    </ul>
+                    
+                      <a href="#" class="nav-link ms-auto myProfile">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="#eeeeee" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                      </svg>
+                     <span>My Profile</span></a>
+                     
+                  </div>
+                </div>
+              </nav>
+
+              
+        </header>
+        <main>
+
+            <section class="profileHeaderSection">
+                <div class="profileHeaderDiv">
+                    <div class="imageDiv">
+                        <img src="img/bahubali.jpg" alt="">
+                    </div>
+                    <div class="infoEdit">
+                        <div class="infoDiv">
+                            <h2 id="userName">Shubham Siddhapura</h2>
+                            <div class="userMail">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                                <span id="userEmail">shubhamsid@ss.com</span>
+                            </div>
+                            <div class="roleTag" id="userRole">
+                                user
+                            </div>
+                            <!-- <div class="bio">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, soluta perspiciatis. porro architecto aspernatur, deleniti, quasi sapiente, dolor pariatur hic. Quas, fugiat!
+                            </div> -->
+                        </div>
+                        <div class="infoEditBtn">
+                            <button class="btn btn-outline-primary form-control" data-bs-toggle="modal" data-bs-target="#editModal">Edit</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- my orders -->
+            <section>
+
+                <div class="category">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h3>My Orders</h3>
+                        <a href="#">View all</a>
+                    </div>
+                    <div class="booksList" id="bookList">
+                      <!-- book start -->
+                      <div class="book">
+                        <div class="bookImage">
+                            <img src="" alt="">
+                        </div>
+                        <div class="bookTitle">
+                            <span>Shubham Siddhapura</span>
+                        </div>
+                        <div class="price">&#8377; <span>123</span></div>
+                        <!-- <div class="addToCart">
+                            <button class="addToCartBtn">Ordered</button>
+                        </div> -->
+                        <div class="orderStatus">
+                            <p class="ordered">Ordered...</p>
+                        </div>
+        
+                        <div class="favourite">
+                            <input type="checkbox" id="favourite1" class="favouriteCheckBox"/>
+                            <label for="favourite1">★</label>
+                        </div>
+                      </div>
+                      <!-- book ends -->
+    
+                      <!-- book start -->
+                      <div class="book">
+                        <div class="bookImage">
+                            <img src="" alt="">
+                        </div>
+                        <div class="bookTitle">
+                            <span>Shubham Siddhapura</span>
+                        </div>
+                        <div class="price">&#8377; <span>123</span></div>
+                        <!-- <div class="addToCart">
+                            <button class="addToCartBtn">Add To Cart</button>
+                        </div> -->
+                        <div class="orderStatus">
+                            <p class="dispatched">Dispatched...</p>
+                        </div>
+        
+                        <div class="favourite">
+                            <input type="checkbox" id="favourite1" class="favouriteCheckBox"/>
+                            <label for="favourite1">★</label>
+                        </div>
+                      </div>
+                      <!-- book ends -->
+    
+    
+                      <!-- book start -->
+                      <div class="book">
+                        <div class="bookImage">
+                            <img src="" alt="">
+                        </div>
+                        <div class="bookTitle">
+                            <span>Shubham Siddhapura</span>
+                        </div>
+                        <div class="price">&#8377; <span>123</span></div>
+                        <!-- <div class="addToCart">
+                            <button class="addToCartBtn">Add To Cart</button>
+                        </div> -->
+                        <div class="orderStatus">
+                            <p class="delivered">Delivered</p>
+                        </div>
+        
+                        <div class="favourite">
+                            <input type="checkbox" id="favourite1" class="favouriteCheckBox"/>
+                            <label for="favourite1">★</label>
+                        </div>
+                      </div>
+                      <!-- book ends -->
+
+                          
+                    </div>
+                  </div>
+    
+
+
+            </section>
+
+
+        </main>
+        <footer>
+
+        </footer>
+
+
+<!-- loading animation -->
+<div class="loadingAnimationDiv d-none" id="loadingAnimation">
+  <div class="animationRing"></div>
+</div>
+
+<!-- edit modal -->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Edit Name</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input type="text" class="form-control mb-3" placeholder="First Name" id="editFirstName">
+          <input type="text" class="form-control" placeholder="Last Name" id="editLastName">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary form-control" id="editNameBtn">Save changes</button>
+          <a role="button" data-bs-dismiss="modal" data-bs-target="#changePasswordModal" data-bs-toggle="modal">Want to change Password ?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- change password -->
+<div class="modal fade" id="changePasswordModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Change Password</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="alert d-none" role="alert" id="changePwdAlert">
+          
+        </div>
+        <input type="password" class="form-control mb-3" placeholder="Old Password" id="oldPwd">
+        <input type="password" class="form-control mb-3" placeholder="New Password" id="newPwd">
+        <input type="password" class="form-control" placeholder="Confirm Password" id="confirmPwd">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary form-control" id="changePwdBtn">Update Password</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <script src="js/myProfile.js"></script>
+    </body>
+</html>
